@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Freckle+Face');
+
+// Fonts
+nav,.navbar-brand {
+ font-family: 'Freckle Face';
+ font-size: 18pt;
+}
+
+.dropdown-item{
+  color: black;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: "Amatic SC";
+}
+
+h1,h2{
+  color: rgb(239, 174, 112);
+}
+
+p{
+  font-family: "Annie use your telescope";
+  font-size: 13pt;
+}
+
+a{
+  font-family: "Annie use your telescope";
+  text-decoration: none;
+  text-decoration-line: none;
+  color: white;
+}
+
+.button{
+  font-family: "Amatic SC";
+}
+
+.form-group{
+  font-family: "Annie use your telescope";
+}
+
+// Buttons
+.btn-primary{
+background-color: rgb(164, 83, 93);
+}
+
+.btn{
+  text-align: left;
+  color: rgb(243, 243, 244);
+  background-image: url("images/hout.jpg");
+}
+
+.top{
+  float:right;
+  font-family: "Annie use your telescope";
+}
+
+.banner{
+  color: rgb(243, 243, 244);
+  text-align: center;
+}
+
+// background
+.jumbotron{
+  background-color: white ;
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg { 
+  /* The image used */
+  background-image: url("{{ site.baseurl }}/images/adventure.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

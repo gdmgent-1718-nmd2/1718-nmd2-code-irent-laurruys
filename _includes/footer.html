@@ -1,5 +1,62 @@
-<nav class="navbar fixed-bottom navbar-light bg-light">
+<footer>
 {%- if site.show-style-guide %}
-    <a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a>
+<nav class="navbar">
+    <div class="container">
+            <div class="col-3 footer-item">
+                <div class="row">
+                    <h5>Sitemap</h5>
+                </div>
+                <div class="row">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="row">
+                     <a href="routesenprijzen.html">Routes & prijzen</a>
+                </div>
+                <div class="row">
+                    <a href="goeddoel.html">Goed doel</a>
+                </div>
+                <div class="row">
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+
+            <div class="col-3 footer item">
+                <div class="row">
+                    <h5>Routes</h5>
+                </div>
+                <div class="row">
+                    <a href="adventure">Adventure</a>
+                </div>
+                 <div class="row">
+                    <a href="#">Basic</a>
+                </div>
+                <div class="row">
+                    <a href="#">Junior</a>
+                </div>
+                <div class="row">
+                    <a href="#">Extreme</a>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="row">
+                    <h5>Adres</h5>
+                </div>
+                <div class="row">
+                    <p>Rue du Plan d’Eau 33-39</p>
+                </div>
+                 <div class="row">
+                    <p>5580 Rochefort Belgie</p>
+                </div>
+                <div class="row">
+                    <a alt="facebook" href="www.facebook.com"><img src="{{ site.baseurl }}/images/facebook.png"></a>
+                    <a alt="instagram" href="www.instagram.com"><img src="{{ site.baseurl }}/images/instagram.png"></a>
+                    <a alt="youtube" href="www.youtube.com"><img src="{{ site.baseurl }}/images/youtube.png"></a>
+                </div>
+            </div>
+    </div>
+
+            <p class="copyright">Kanotocht | Copyright © 2017</p>
 {%- endif %}
 </nav>
+</footer>
