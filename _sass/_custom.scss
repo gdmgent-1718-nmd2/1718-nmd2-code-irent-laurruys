@@ -48,7 +48,7 @@ background-color: rgb(164, 83, 93);
 .btn{
   text-align: left;
   color: rgb(243, 243, 244);
-  background-image: url("images/hout.jpg");
+  background-image: url("{{ site.baseurl }}/images/hout.jpg");
 }
 
 .top{
@@ -72,7 +72,7 @@ body, html {
 
 .bg { 
   /* The image used */
-  background-image: url("{{ site.baseurl }}/images/adventure.jpg");
+  background: url($baseurl + "/images/background.jpg");
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
