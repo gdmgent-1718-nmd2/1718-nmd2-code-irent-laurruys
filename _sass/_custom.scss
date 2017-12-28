@@ -16,6 +16,10 @@ h1,h2,h3,h4,h5{
   font-family: "Amatic SC";
 }
 
+h5{
+  color: black;
+}
+
 h1,h2{
   color: rgb(239, 174, 112);
 }
@@ -32,6 +36,10 @@ a{
   color: white;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
 .button{
   font-family: "Amatic SC";
 }
@@ -40,7 +48,18 @@ a{
   font-family: "Annie use your telescope";
 }
 
+.text-css{
+  text-align: center;
+  margin: auto;
+  font-size: 25pt;
+  vertical-align: center; 
+}
+
 // Buttons
+.link{
+color: rgb(164, 83, 93);
+}
+
 .btn-primary{
 background-color: rgb(164, 83, 93);
 }
@@ -48,7 +67,8 @@ background-color: rgb(164, 83, 93);
 .btn{
   text-align: left;
   color: rgb(243, 243, 244);
-  background-image: url("{{ site.baseurl }}/images/hout.jpg");
+  background-image: url("../../images/hout.jpg");
+  margin-bottom: 1em;
 }
 
 .top{
@@ -61,21 +81,58 @@ background-color: rgb(164, 83, 93);
   text-align: center;
 }
 
+.social-icon{
+  float: right;
+}
+
+// photos
+.map{
+  margin: 3em 1em 2em 1em;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo{
+  width: 100px;
+  left: 80%;
+  position: absolute;
+}
+
+.visje{
+  position: absolute;
+  width: 50px;
+  top: 5%;
+  left: 20%;
+  z-index: 1;
+}
+
+.peddel{
+  position: absolute;
+  width: 60px;
+  top: 10%;
+  left: 80%;
+  z-index: 1;
+}
+
+form{
+  z-index: 2;
+}
+
 // background
 .jumbotron{
-  background-color: white ;
+  background-color: rgba(255, 255, 255, 0.5) ;
 }
 
 body, html {
   height: 100%;
 }
 
-.bg { 
-  /* The image used */
-  background: url($baseurl + "/images/background.jpg");
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
+.background{
+  background-image: url("../../images/background.jpg") ;
+  background-repeat: no-repeat ;
   background-size: cover;
 }
-

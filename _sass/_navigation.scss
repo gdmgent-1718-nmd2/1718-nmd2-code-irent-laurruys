@@ -1,13 +1,18 @@
 .navbar {
     background-image: url(../../images/hout.jpg);
-} 
-
-.nav{
-    color: black;
 }
 
-.navbar-collapse{
-    color: black;
+.navbar-toggler{
+    color:white;
+    z-index: 1;
+}
+
+.nav-link{
+    color: white;
+}
+
+.dropdown-item{
+    color: green;
 }
 
 a:hover{

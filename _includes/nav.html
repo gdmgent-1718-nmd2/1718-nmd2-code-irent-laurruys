@@ -3,7 +3,7 @@
     <a class="navbar-brand" href="#">Let's canoe!</a>
     
     <!-- hamburger icoon -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> ▼
       <span class="navbar-toggler-icon"></span>
     </button>
   
@@ -22,7 +22,7 @@
                       <ul class="dropdown-menu">
                           {% for sublink in link.sublinks %}
                                   <li class="dropdown-item">
-                                      <a class="nav-link" href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+                                      <a class="nav-link" href="{{ site.baseurl }}{{ sublink.url }}" style="color: rgb(190, 102,68)">{{ sublink.title }}</a>
                                   </li>
                           {% endfor %}
                       </ul>
